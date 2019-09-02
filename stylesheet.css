@@ -1,16 +1,22 @@
 /*style goes here*/
 p{
-  color:#666666;
+  color:#808B96;
   font-family: Helvetica, Arial, sans-serif;
 }
 
 h1{
-  font-family: Georgia, "Times New Roman", serif;
+  color:#F7DC6F;
+  font-family: Helvetica,Georgia, "Times New Roman", serif;
 }
 
+h2{
+color:#F7DC6F;
+font-family:Helvetica, Georgia, serif;
+
+}
 
 body {
-  background-color: #ebe3c3;
+  background-color: #eFFF;
 }
 
 #nav {
@@ -18,5 +24,7 @@ body {
   list-style-type: none;
 }
 #nav li {
+  margin: 0;
+  padding: 0;
 border-bottom: 1px solid #ccc;
 }
