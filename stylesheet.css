@@ -19,6 +19,11 @@ font-size: 1.5em;
 }
 
 
+#container {
+width: 95%;
+margin: 0 auto;
+
+}
 
 
 body {
@@ -45,7 +50,7 @@ padding: 4px;
 }
 
 #nav a:hover, #nav a:active {
-background-color: #C9FAFF
+background-color: #808B96
 }
 
 .caption {
