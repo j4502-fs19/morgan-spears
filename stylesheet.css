@@ -13,21 +13,17 @@ font-size: 3em;
 
 h2{
 color:#F7DC6F;
-font-family: 'Open Sans', sans-serif, Georgia;
+font-family: 'Open Sans', sans-serif, Helvetica;
 font-size: 1.5em;
 
 }
 
-#container {
-  width: 95%;
-  margin: 0; auto
-}
+
 
 
 body {
   background-color: #E4FBFD;
 }
-
 
 #nav {
   padding: 0;
@@ -44,7 +40,7 @@ border-bottom: 1px solid #ccc;
   font-weight: bold;
   text-align: center;
 text-decoration: none;
-font-family: Helvetica, Arial, serif;
+font-family: 'Open Sans',Helvetica, Arial, sans-serif;
 padding: 4px;
 }
 
