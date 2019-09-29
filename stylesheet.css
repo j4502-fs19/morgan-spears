@@ -71,6 +71,10 @@ border-top: 1px solid black;
 
 }
 
+@@media screen and (min-width:599px) {
+
+}
+
 img {
   border: none;
 }
