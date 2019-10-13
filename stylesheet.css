@@ -1,6 +1,6 @@
 /*style goes here*/
 p{
-  color:#808B96;
+  color:Black;
   font-family: 'Source Serif Pro',serif;
 }
 
@@ -16,6 +16,13 @@ color:#F7DC6F;
 font-family: 'Open Sans', sans-serif, Helvetica;
 font-size: 1.5em;
 
+}
+
+h3{
+
+Color: black;
+font-family: 'Open Sans', sans-serif, Helvetica;
+font-size: 1.25em;
 }
 
 
@@ -65,6 +72,7 @@ flex-direction: column;
   flex-direction: row;
   justify-content: center;
 }
+}
 
 
 .caption {
@@ -86,11 +94,67 @@ border-top: 1px solid black;
 }
 
 
+.cards {
+     margin: 15px;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-rows: minmax(150px, auto) ;
+    grid-template-areas:
+    "a a b c"
+    "a a b c"
+    "d d b c" ;
+
+}
+
+
+.cards li {
+    background-color: #808B96;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.one  {
+  grid-area: a;
+
+}
+
+.two {
+  grid-area: b;
+
+}
+
+.three {
+  grid-area: c;
+
+
+}
+
+.four {
+  grid-area: d;
+
+
+}
+
+
+@media (max-width: 600px) {
+  .cards {
+display: grid;
+
+grid-template-areas:
+"a b"
+"a b"
+"c d";
+
+}
+}
 
 
 
 img {
   border: none;
-}
-
 }
