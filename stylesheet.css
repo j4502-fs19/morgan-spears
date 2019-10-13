@@ -141,18 +141,30 @@ border-top: 1px solid black;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .cards {
 display: grid;
 
 grid-template-areas:
-"a b"
-"a b"
-"c d";
+"a"
+"b"
+"c"
+"d"
 
 }
 }
 
+@media (max-width: 700px) {
+  .cards {
+    display: grid;
+    grid-template-areas:
+    "a a b b"
+    "a a b b"
+    "c c d d"
+    "c c d d";
+  }
+
+}
 
 
 img {
