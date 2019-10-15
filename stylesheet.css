@@ -102,9 +102,9 @@ border-top: 1px solid black;
     grid-gap: 20px;
     grid-auto-rows: minmax(150px, auto) ;
     grid-template-areas:
-    "a a b c"
-    "a a b c"
-    "d d b c" ;
+    "a a c b"
+    "a a c b"
+    "d d d d" ;
 
 }
 
@@ -141,29 +141,29 @@ border-top: 1px solid black;
 }
 
 
+@media (max-width: 700px) {
+  .cards {
+    display: grid;
+    grid-template-areas:
+    "c c b b"
+    "c c b b"
+    "a a d d"
+    "a a d d";
+  }
+
+}
+
 @media (max-width: 500px) {
   .cards {
 display: grid;
 
 grid-template-areas:
+"c"
 "a"
 "b"
-"c"
 "d"
 
 }
-}
-
-@media (max-width: 700px) {
-  .cards {
-    display: grid;
-    grid-template-areas:
-    "a a b b"
-    "a a b b"
-    "c c d d"
-    "c c d d";
-  }
-
 }
 
 
