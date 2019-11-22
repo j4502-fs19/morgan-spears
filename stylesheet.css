@@ -7,7 +7,7 @@ p{
 h1{
   color:#F7DC6F;
   font-family: 'satisfy', cursive, Helvetica;
-text-align: justify;
+text-align: center;
 font-size: 3em;
 }
 
@@ -108,9 +108,4 @@ color: black;
 font-size: 0.8em;
 border-top: 1px solid black;
 
-}
-
-nav {
-  display: flex;
-  text-decoration: none;
 }
