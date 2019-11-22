@@ -2,6 +2,7 @@
 p{
   color:Black;
   font-family: 'Source Serif Pro',serif;
+  text-align: center;
 }
 
 h1{
@@ -15,6 +16,7 @@ h2{
 color:#F7DC6F;
 font-family: 'Open Sans', sans-serif, Helvetica;
 font-size: 1.5em;
+text-align: center;
 
 }
 
@@ -23,6 +25,7 @@ h3{
 Color: Grey;
 font-family: 'Open Sans', sans-serif, Helvetica;
 font-size: 1.25em;
+text-align:center;
 }
 
 
@@ -62,6 +65,8 @@ nav {
 nav li {
 border-bottom: 1px solid #ccc;
 font-size: 24px;
+list-style-type: none;
+text-align: left;
 }
 
 nav a:link, nav a:visited {
@@ -81,12 +86,12 @@ background-color: #808B96
 
 nav {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 
 @media (min-width:600px) {
 nav {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 }
@@ -96,7 +101,7 @@ nav {
   font-family: Georgia, "Times New Roman", Serif;
   color: black;
   font-style: italic;
-  text-align: left;
+  text-align: center;
   font-size: 0.8em;
   margin-top: 0;
 
@@ -107,5 +112,13 @@ font-family: Georgia, "Times New Roman", Serif;
 color: black;
 font-size: 0.8em;
 border-top: 1px solid black;
+
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right:auto;
+width: 50%;
 
 }
